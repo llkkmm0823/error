@@ -96,7 +96,7 @@ document.addEventListener('touchend', handleMouseUp)
 
 
 
-const mingooBtn = document.getElementById('mingoo-btn');
-  mingooBtn.addEventListener('click', () => {
-    window.open('mingoo.html', 'a', 'width=400, height=800, left=0, top=0');
-  });
+const mingooBtn = document.querySelector('#mingoo-btn');
+mingooBtn.addEventListener('click', function() {
+  window.open("mingoo.html","_blank","width=400, height=800, left=0, top=0");
+});
